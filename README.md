@@ -58,7 +58,7 @@ You will be running your tests in one terminal and debugging in the other. As yo
 
 Edit the `ReadMe` file with your answers to the questions below.
 
-1. In your own words, define closure (1-2 sentences).
+1. In your own words, define closure (1-2 sentences). Closure is when a function on a lower scope reaches above to grab information/variables.
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -79,9 +79,9 @@ dansRoll();
 dansRoll();
 ```
 
-a. Where is closure used in this code? How can you tell?
-b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
-c. What is the lexical scope of `newRoll`? 
+a. Where is closure used in this code? How can you tell? The closure is in the console log in the function. It is reaching for the name outside of the function
+b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change? The name will be the same, but what he rolls will change
+c. What is the lexical scope of `newRoll`?  I believe its a block scope as the newRoll is a const and exist outside of the function
 
 
 ### Task 3 - Stretch Goals
